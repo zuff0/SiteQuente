@@ -1,5 +1,2 @@
 # SiteQuente
 site quente
-
-# piroca
-
