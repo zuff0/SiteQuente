@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+/* NAVBAR :) */
+
+.navbar {
+    padding: 2rem 10rem;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 3rem;
+    display: inline;
+}
+.navbar a {
+    padding: 0 1em;
+    text-decoration: none;
+    color: #222;
+}
