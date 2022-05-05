@@ -2,9 +2,9 @@
 
 ## Styles
 
-Choose fonts
+1. Choose fonts
 
 ## Website
 
-Banner
-Logo
+1. Banner
+2. Logo
