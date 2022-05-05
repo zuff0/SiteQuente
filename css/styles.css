@@ -7,7 +7,13 @@ body {
 /* NAVBAR :) */
 
 .navbar {
-    padding: 2rem 10rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    padding: 1rem 10rem;
     background-color: #fff;
     display: flex;
     flex-wrap: nowrap;
@@ -17,11 +23,59 @@ body {
 
 .navbar h1 {
     margin: 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
     display: inline;
 }
 .navbar a {
     padding: 0 1em;
     text-decoration: none;
     color: #222;
+}
+
+/* BANNER :( */
+
+.banner {
+    margin-top: 10vh;
+    height: 90vh;
+    display: grid;
+}
+.banner .board {
+    margin: auto;
+    color: #fff;
+    font-size: 4rem;
+    padding: .5em 1em;
+    border: 5px solid #fff;
+    display: flex;
+    align-items: center;
+}
+.banner .board .logo {
+    margin-right: .5em;
+    width: 2em;
+    height: 2em;
+    border: 10px solid #fff;
+    border-radius: 25% 25% 0 25%;
+    position: relative;
+}
+.banner .board .logo .flash {
+    position: absolute;
+    width: .2em;
+    height: .2em;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+}
+.banner .board .logo .camera {
+    width: 1.2em;
+    height: 1.2em;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner .board h1 {
+    margin: 0;
 }
