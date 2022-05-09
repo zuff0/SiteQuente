@@ -5,6 +5,7 @@ body {
 }
 
 /* BOARD LOGO Aaaaaaahhhhh */
+/* Very bad code :/ */
 
 .board {
     margin: auto;
@@ -62,6 +63,8 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
+    box-shadow: 0 0.1em 10px #000;
 }
 
 .navbar .board {
@@ -88,4 +91,52 @@ body {
     margin-top: 10vh;
     height: 90vh;
     display: grid;
+}
+
+/* Slide One */
+
+.slide-01 {
+	background-color: #fff;
+	height: 90vh;
+	position: relative;
+	font-size: 1rem;
+	display: grid;
+} 
+.top-triangle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 0px;
+	width: 0px;
+	border-left: 10vw solid #000;
+	border-right: 10vw solid  #fff;
+	border-top: 10vw solid #000;
+	border-bottom: 10vw solid #fff;
+	z-index: 0;
+}
+.slide-01 .content {
+	z-index: 1;
+	padding: 10vh 20vw;
+	display: flex;
+	gap: 5em;
+	justify-content: center;
+	align-items: center;
+}
+.slide-01 .content p {
+	text-align: justify;
+}
+.slide-01 .content img {
+	height: 70vh;
+}
+.bot-triangle {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 0px;
+	width: 0px;
+	border-top: 20vw solid #000;
+	border-left: 20vw solid  #fff;
+	border-bottom: 20vw solid #000;
+	border-top: 20vw solid #fff;
+	z-index: 0;
 }
