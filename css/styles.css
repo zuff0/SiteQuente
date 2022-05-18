@@ -93,16 +93,33 @@ body {
     display: grid;
 }
 
-/* Slide One */
+/* Slide Styles */
 
-.slide-01 {
+.slide {
 	background-color: #fff;
 	height: 90vh;
 	position: relative;
 	font-size: 1rem;
 	display: grid;
 } 
-.top-triangle {
+.slide .content {
+	z-index: 1;
+	padding: 10vh 20vw;
+	display: flex;
+	gap: 5em;
+	justify-content: center;
+	align-items: center;
+}
+.slide .content p {
+	text-align: justify;
+}
+.slide .content img {
+	height: 70vh;
+}
+
+/* Slide One */
+
+.slide-01 .top-triangle {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -114,21 +131,7 @@ body {
 	border-bottom: 10vw solid #fff;
 	z-index: 0;
 }
-.slide-01 .content {
-	z-index: 1;
-	padding: 10vh 20vw;
-	display: flex;
-	gap: 5em;
-	justify-content: center;
-	align-items: center;
-}
-.slide-01 .content p {
-	text-align: justify;
-}
-.slide-01 .content img {
-	height: 70vh;
-}
-.bot-triangle {
+.slide-01 .bot-triangle {
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -139,4 +142,20 @@ body {
 	border-bottom: 20vw solid #000;
 	border-top: 20vw solid #fff;
 	z-index: 0;
+}
+
+/* Slide Two */
+
+.slide-02 .circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 80vh;
+	width: 80vh;
+	background-color: #000;
+	border-radius: 50%;
+}
+.slide-02 h3, .slide-02 h4 {
+	color: #fff;
 }
