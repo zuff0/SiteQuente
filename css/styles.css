@@ -2,6 +2,17 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000;
+    font-family: 'Courier Prime', monospace;
+}
+
+.loader {
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
 }
 
 /* BOARD LOGO Aaaaaaahhhhh */
@@ -145,8 +156,13 @@ body {
 }
 
 /* Slide Two */
+.slide-02 {
+	background-color: #000;
+}
 
-.slide-02 .circle {
+/* Slide Three */
+
+.slide-03 .circle {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -156,6 +172,32 @@ body {
 	background-color: #000;
 	border-radius: 50%;
 }
-.slide-02 h3, .slide-02 h4 {
+.slide-03 h3, .slide-03 h4 {
 	color: #fff;
+}
+
+/* Footer */
+footer {
+	color: #fff;
+}
+footer p {
+	text-align: center;
+}
+
+/* APP STYLES */
+
+.content-app {
+	margin: 10vh 10vw 0;
+	padding: 5vh 0;
+}
+.content-app h1 {
+	color: #fff;
+}
+.content-app .app-images {
+	display: flex;
+	gap: 2em;
+	margin-bottom: 10vh;
+}
+.galery img {
+	width: 100%;
 }
