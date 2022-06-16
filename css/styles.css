@@ -159,6 +159,9 @@ body {
 .slide-02 {
 	background-color: #000;
 }
+.slide-02 video {
+	width: 100%;
+}
 
 /* Slide Three */
 
@@ -195,9 +198,33 @@ footer p {
 }
 .content-app .app-images {
 	display: flex;
+	justify-content: space-between;
 	gap: 2em;
 	margin-bottom: 10vh;
 }
 .galery img {
 	width: 100%;
+}
+.app-images img {
+	width: 20vw;
+}
+.galery-logo img {
+	width: 10vw;
+}
+.suport-galery img {
+	width: 20vw;
+}
+
+/* ABOUT STYLES */
+
+.relatorio {
+	margin: 10vh 10vw 0;
+	padding: 5vh 0;
+	color: #fff;
+}
+.relatorio-days {
+	margin-left: 2em;
+}
+.relatorio-resources {
+	margin-left: 2em;
 }
