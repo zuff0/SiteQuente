@@ -224,10 +224,16 @@ footer p {
 }
 .relatorio-days {
 	margin-left: 2em;
+	text-align: justify;
 }
 .relatorio-resources {
 	margin-left: 2em;
 }
 .relatorio-video {
 	margin-left: 2em;
+	text-align: justify;
+}
+.sustentabilidade {
+	margin-left: 2em;
+	text-align: justify;
 }
